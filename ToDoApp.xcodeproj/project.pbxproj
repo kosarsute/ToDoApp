@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		2F0969FA288216C500200D45 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0969F9288216C500200D45 /* Location.swift */; };
 		2F0969FC28821C7000200D45 /* LocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0969FB28821C7000200D45 /* LocationTests.swift */; };
+		2F0969FF28822A0C00200D45 /* TaskManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0969FE28822A0C00200D45 /* TaskManagerTests.swift */; };
+		2F096A0228822AB800200D45 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F096A0128822AB800200D45 /* TaskManager.swift */; };
 		2F51CFAF28813914003A8B39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F51CFAE28813914003A8B39 /* AppDelegate.swift */; };
 		2F51CFB128813914003A8B39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F51CFB028813914003A8B39 /* SceneDelegate.swift */; };
 		2F51CFB328813914003A8B39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F51CFB228813914003A8B39 /* ViewController.swift */; };
@@ -42,6 +44,8 @@
 /* Begin PBXFileReference section */
 		2F0969F9288216C500200D45 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		2F0969FB28821C7000200D45 /* LocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTests.swift; sourceTree = "<group>"; };
+		2F0969FE28822A0C00200D45 /* TaskManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManagerTests.swift; sourceTree = "<group>"; };
+		2F096A0128822AB800200D45 /* TaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 		2F51CFAB28813914003A8B39 /* ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F51CFAE28813914003A8B39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F51CFB028813914003A8B39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +87,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F0969FD288229E200200D45 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				2F0969FE28822A0C00200D45 /* TaskManagerTests.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		2F096A0028822A9D00200D45 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				2F096A0128822AB800200D45 /* TaskManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		2F51CFA228813914003A8B39 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +126,7 @@
 		2F51CFAD28813914003A8B39 /* ToDoApp */ = {
 			isa = PBXGroup;
 			children = (
+				2F096A0028822A9D00200D45 /* Manager */,
 				2F51CFE028813B51003A8B39 /* Controller */,
 				2F51CFDF28813B45003A8B39 /* View */,
 				2F51CFDE28813B32003A8B39 /* Model */,
@@ -117,6 +138,7 @@
 		2F51CFC728813A52003A8B39 /* ToDoAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				2F0969FD288229E200200D45 /* Manager */,
 				2F51CFC828813A52003A8B39 /* ToDoAppTests.swift */,
 				2F51CFE428813D78003A8B39 /* Model */,
 			);
@@ -308,6 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F096A0228822AB800200D45 /* TaskManager.swift in Sources */,
 				2F51CFE628813E87003A8B39 /* Task.swift in Sources */,
 				2F51CFB328813914003A8B39 /* ViewController.swift in Sources */,
 				2F0969FA288216C500200D45 /* Location.swift in Sources */,
@@ -322,6 +345,7 @@
 			files = (
 				2F51CFE328813D64003A8B39 /* TaskTest.swift in Sources */,
 				2F0969FC28821C7000200D45 /* LocationTests.swift in Sources */,
+				2F0969FF28822A0C00200D45 /* TaskManagerTests.swift in Sources */,
 				2F51CFC928813A52003A8B39 /* ToDoAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
